@@ -7,6 +7,9 @@ I created this Website for ease of use. The API token is saved on a Client's com
 # What do i plan to add?
 Currently the response from the openai API is just getting splitted whereever `\n` is and a "p" element gets created for each line. I want to add the "bold" and "code embed" feature but i am happy with this version too.
 
+# Usage
+Please watch [this video](https://www.youtube.com/watch?v=wZvPzkj6rRQ) to find out how to use this client
+
 # Features
 * API token is saved in local storage.
 * Chat History is saved in local storage.
