@@ -1,5 +1,8 @@
 if (!localStorage.getItem('apiKey')) {
-    localStorage.setItem('apiKey', prompt("Please enter your openai API key:"));
+    key = prompt("Please enter your openai API key:")
+    if(key){
+        localStorage.setItem('apiKey', key);
+    }
 }
 
 prevTalk = JSON.parse(localStorage.getItem('history')) || [];
